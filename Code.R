@@ -7,7 +7,14 @@ install.packages("tseries")
 install.packages("lubridate")
 install.packages("Quandl")
 
-
+library("tidyverse")
+library("TTR")
+library("quantmod")
+library("PerformanceAnalytics")
+library("RColorBrewer")
+library("tseries")
+library("lubridate")
+library("Quandl")
 
 MSFT<-getSymbols("MSFT",auto.assign=FALSE)
 head(MSFT)
