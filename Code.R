@@ -52,3 +52,5 @@ dim(comb_traded)
 charts.PerformanceSummary(comb_traded,main="Microsoft v/s Tesla")
 
 table.AnnualizedReturns(comb_traded,scale = 252,Rf = .004/252)
+
+
